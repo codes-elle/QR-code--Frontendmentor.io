@@ -1,0 +1,51 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 50px;
+    font-family: Outfit, sans-serif, serif;
+}
+
+.card-container{
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 15px;
+    margin: 100px auto;
+    border-radius: 4%;
+}
+
+.qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.qrcode img{
+    height: 335px;
+    width: 345px;
+    border-radius: 4%;
+    position: relative;
+}
+
+.card-heading p{
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.card-desc p{
+    font-size: 1.09rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+/*ATTRIBUTION*/
+.attribution { 
+    margin-top: 15px;
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
